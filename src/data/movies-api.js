@@ -2,13 +2,13 @@ import axios from "axios";
 
 axios.defaults.baseURL = "https://api.themoviedb.org/3";
 
-// const API_KEY = "b21b510924516934b35f49af6564f874";
-
 // const options = {
 //   headers: {
 //     Authorization: `Bearer ${eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiMjFiNTEwOTI0NTE2OTM0YjM1ZjQ5YWY2NTY0Zjg3NCIsInN1YiI6IjY2MGViMDhkZGE5ZWYyMDE3ZDU5NmRkMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.JLT5FwZx_YPaSJDggXA8PCYkmne6Uaap78jG3vzMq54}`,
 //   },
 // };
+
+// не працює
 
 const options = {
   headers: {
