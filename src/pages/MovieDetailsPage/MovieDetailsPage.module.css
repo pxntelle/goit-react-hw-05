@@ -1,0 +1,99 @@
+/* .goBackBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 40px;
+  color: white;
+  font-size: 20px;
+  background-color: #8d9eff;
+  height: 40px;
+  width: 200px;
+  border: 3px solid #2741d8;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.35s;
+}
+
+.goBackBtn:hover {
+  background-color: #33ff92;
+  color: #2741d8;
+}
+
+.btnIcon {
+  height: 25px;
+  width: 25px;
+  padding: 8px;
+  color: white;
+  transition: 0.35s;
+}
+
+.btnIcon:hover {
+  color: #2741d8;
+} */
+
+.goBackBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #8d9eff;
+  height: 40px;
+  width: 200px;
+  border: 3px solid #2741d8;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 0.35s;
+}
+
+.goBackBtn:hover {
+  background-color: #33ff92;
+  color: #2741d8;
+}
+
+.btnIcon {
+  height: 25px;
+  width: 25px;
+  padding: 8px;
+  color: white;
+  transition: 0.35s;
+}
+
+.btnText {
+  /* margin-left: 8px; */
+  transition: 0.35s;
+}
+
+.goBackBtn:hover .btnIcon,
+.goBackBtn:hover .btnText {
+  color: #2741d8;
+}
+
+.div {
+  display: flex;
+  gap: 40px;
+  margin: 40px;
+}
+
+.poster {
+  border-radius: 20px;
+  height: 600px;
+  width: 400px;
+}
+
+.posterIcon {
+  height: 600px;
+  width: 400px;
+  margin-right: 40px;
+  color: #8d9eff;
+}
+
+.details {
+  width: 100%;
+}
+
+.detailsText {
+  text-align: start;
+}

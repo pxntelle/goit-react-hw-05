@@ -1,0 +1,51 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.item {
+  border-radius: 12px;
+  border: 1px solid #2741d8;
+  padding: 4px;
+  width: 200px;
+  justify-content: center;
+  transition: 0.35s;
+}
+
+.item:hover {
+  border-color: #33ff92;
+}
+
+.miniImg {
+  width: 200px;
+  border-radius: 10px;
+  transition: 0.35s;
+}
+
+.item:hover .miniImg,
+.item:hover .avatarIcon {
+  opacity: 60%;
+}
+
+.avatarIcon {
+  width: 200px;
+  height: 300px;
+  color: #8d9eff;
+  transition: 0.35s;
+}
+
+.avatarIcon:hover {
+  opacity: 60%;
+}
+
+.movieTitle {
+  text-align: center;
+  transition: 0.35s;
+}
+
+.item:hover .movieTitle {
+  color: #8d9eff;
+}

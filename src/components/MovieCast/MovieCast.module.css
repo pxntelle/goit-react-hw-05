@@ -1,0 +1,29 @@
+.actorsList {
+  justify-content: center;
+}
+
+.item {
+  width: 200px;
+  justify-content: center;
+}
+
+.actorName {
+  font-weight: 500;
+  font-size: 24px;
+  margin: 8px;
+}
+
+.actorCharacter {
+  margin: 8px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.avatarIcon {
+  width: 200px;
+  height: 300px;
+  color: #8d9eff;
+}
